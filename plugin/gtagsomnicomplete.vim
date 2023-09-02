@@ -1,6 +1,6 @@
 let s:global_command = "global"
 let s:str_split_char = '\n'
-let s:min_len_invoke = 4
+let s:min_len_invoke = 2
 function! gtagsomnicomplete#Complete(findstart, base)
     let l:completions=[]
 	if a:findstart
